@@ -6,19 +6,19 @@
 # print(my_list)
 
 
-start = int(input("Start range: "))
-end = int(input("End range: "))
-simpl_num = []
-for i in range(start, end + 1):
-    flag = True
-    for j in range(start, end + 1):
-        if j >= i:
-            break
-        elif j != 1 and i != j:
-            resuld = i % j
-            if resuld == 0:
-                flag = False
-                break
-    if flag:
-        simpl_num.append(i)
-print (simpl_num)
+# start = int(input("Start range: "))
+# end = int(input("End range: "))
+# simpl_num = []
+# for i in range(start, end + 1):
+#     flag = True
+#     for j in range(start, end + 1):
+#         if j >= i:
+#             break
+#         elif j != 1 and i != j:
+#             resuld = i % j
+#             if resuld == 0:
+#                 flag = False
+#                 break
+#     if flag:
+#         simpl_num.append(i)
+# print (simpl_num)
